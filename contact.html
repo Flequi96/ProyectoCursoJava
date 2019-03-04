@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Contact</title>
+		<title>Registro</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -24,7 +24,7 @@
 								<a href="#" class="icon fa-angle-down">Menu</a>
 								<ul>
 									<li><a href="generic.html">Articulo</a></li>
-									<li><a href="contact.html">Contacto</a></li>
+									<li><a href="contact.html">Registro</a></li>
 									<li><a href="elements.html">Elements</a></li>
 									<li>
 										<a href="#">Juegos</a>
@@ -45,29 +45,33 @@
 			<!-- Main -->
 				<section id="main" class="container medium">
 					<header>
-						<h2>Contact Us</h2>
-						<p>Tell us what you think about our little operation.</p>
+						<h2>Regístrate</h2>
+						<p> Recuerda que todos los campos son obligatorios.</p>
 					</header>
 					<div class="box">
 						<form method="post" action="#">
 							<div class="row gtr-50 gtr-uniform">
 								<div class="col-6 col-12-mobilep">
-									<input type="text" name="name" id="name" value="" placeholder="Name" />
+									<input type="text" name="name" id="nick" value="" placeholder="Usuario" />
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="name" id="name" value="" placeholder="Nombre" />
+								</div>
+								<div class="col-6 col-12-mobilep">
+									<input type="text" name="apellido" id="surname" value="" placeholder="Apellido" />
 								</div>
 								<div class="col-6 col-12-mobilep">
 									<input type="email" name="email" id="email" value="" placeholder="Email" />
 								</div>
-								<div class="col-12">
-									<input type="text" name="subject" id="subject" value="" placeholder="Subject" />
+								<div class="col-6 col-12-mobilep">
+									<input type="email" name="password" id="password" value="" placeholder="Contraseña" />
 								</div>
-								<div class="col-12">
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+								<div class="col-6 col-12-mobilep">
+									<input type="email" name="password" id="passwordrepeat" value="" placeholder="Confirma Contraseña" />
 								</div>
-								<div class="col-12">
 									<ul class="actions special">
-										<li><input type="submit" value="Send Message" /></li>
+										<li><input type="submit" value="Aceptar y Registrarse" /></li>
 									</ul>
-								</div>
 							</div>
 						</form>
 					</div>
@@ -75,13 +79,12 @@
 
 			<!-- Footer -->
 				<footer id="footer">
+					<div class="paypal">
+					<h4>Si te gusta nuestra web, ayudanos a manetenerla, haz una pequeña donación , para nosotros es una gran colaboración.</h4>
+					</div>
 					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+						<li><a id="paypal" href="http://www.paypal.es" ><img src="images/paypal.jpg" width="75" height="50" /></a></li>
+						
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
